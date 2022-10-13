@@ -13,6 +13,9 @@
 		3B420E3528F6C62D00A94D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B420E3328F6C62D00A94D97 /* Main.storyboard */; };
 		3B420E3728F6C62D00A94D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B420E3628F6C62D00A94D97 /* Assets.xcassets */; };
 		3B420E3A28F6C62D00A94D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B420E3828F6C62D00A94D97 /* LaunchScreen.storyboard */; };
+		3B420E4228F6EA9E00A94D97 /* GozAtVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B420E4128F6EA9E00A94D97 /* GozAtVC.swift */; };
+		3B420E4628F6F59700A94D97 /* Kategoriler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B420E4528F6F59700A94D97 /* Kategoriler.swift */; };
+		3B420E4828F75AC800A94D97 /* KategoriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B420E4728F75AC800A94D97 /* KategoriTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		3B420E3628F6C62D00A94D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B420E3928F6C62D00A94D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B420E3B28F6C62D00A94D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B420E4128F6EA9E00A94D97 /* GozAtVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GozAtVC.swift; sourceTree = "<group>"; };
+		3B420E4528F6F59700A94D97 /* Kategoriler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kategoriler.swift; sourceTree = "<group>"; };
+		3B420E4728F75AC800A94D97 /* KategoriTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				3B420E2D28F6C62D00A94D97 /* AppDelegate.swift */,
 				3B420E2F28F6C62D00A94D97 /* SceneDelegate.swift */,
 				3B420E3128F6C62D00A94D97 /* ViewController.swift */,
+				3B420E4128F6EA9E00A94D97 /* GozAtVC.swift */,
+				3B420E4528F6F59700A94D97 /* Kategoriler.swift */,
+				3B420E4728F75AC800A94D97 /* KategoriTableViewCell.swift */,
 				3B420E3328F6C62D00A94D97 /* Main.storyboard */,
 				3B420E3628F6C62D00A94D97 /* Assets.xcassets */,
 				3B420E3828F6C62D00A94D97 /* LaunchScreen.storyboard */,
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B420E3228F6C62D00A94D97 /* ViewController.swift in Sources */,
+				3B420E4628F6F59700A94D97 /* Kategoriler.swift in Sources */,
 				3B420E2E28F6C62D00A94D97 /* AppDelegate.swift in Sources */,
+				3B420E4228F6EA9E00A94D97 /* GozAtVC.swift in Sources */,
 				3B420E3028F6C62D00A94D97 /* SceneDelegate.swift in Sources */,
+				3B420E4828F75AC800A94D97 /* KategoriTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
